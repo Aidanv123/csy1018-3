@@ -26,11 +26,11 @@ img {
  body {
      text-align: center;
 /*Code above, is the css code to make the image a circle, and have the text be a specific font*/ 
-/* The code below, is the css code for the different tabs on the page, also makes it change colour when you hover over it*/
- {
+/* The code below, is the css code for the different tabs on the page, makes them look how they do, also makes it change colour when you hover over it*/
+ 
     margin: 0;
     padding: 0;
-}
+ }
 
 nav {
     margin: 50px;
