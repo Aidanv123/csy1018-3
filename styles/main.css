@@ -61,7 +61,7 @@ li a {
     text-transform: uppercase;
     transition: all 0.5s ease;
 }
-
+/* Causes text to transition from black to blue when you hover, then move away */
 li a:hover {
     color: blue;
 }
