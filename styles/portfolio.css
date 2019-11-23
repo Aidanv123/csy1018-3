@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+   margin: 0;
+   padding: 0;
+}
+
+
+nav {
+   margin: 50px;
+}
+
+ul {
+   overflow: auto;
+   list-style-type: none;
+}
+
+li {
+   height: 25px;
+   float: left;
+   margin-right: 0px;
+   border-right: 1px solid
+   #aaa;
+   padding: 0 20px;
+}
+
+li:last-child{
+   border-right: none;
+}
+
+li a {
+   text-decoration: none;
+   color: #ccc;
+   font: 25px/1 Helvetica, Verdana, sans-serif;
+   text-transform: uppercase;
+   transition: all 0.5s ease;
+}
+/* Causes text to transition from black to blue when you hover, then move away */
+li a:hover {
+   color: blue;
+}
+
+li.active a {
+   font-weight: bold;
+   color: #333;
+
+}

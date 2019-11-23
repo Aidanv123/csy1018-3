@@ -1,47 +1,42 @@
+/* This is the CSS code for the h1 and h2 code in the Index Page, these are the text font for the text on the screen*/
 h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 40px;
+   /*Use of Google Web Fonts */ font-family: 'Aldrich';font-size: 50px;
+   color: rgb(255, 255, 255);
 }
 h2 {
-    font-family: 'serif', serif;
-    font-size: 20px;
+    font-family: 'Aldrich';font-size: 20px;
+    color: white;
+}
+h3 {
+    color: white;
 }
 
-.item {
-   text-align: 200px;
-   border-radius: 100%;
-   height: 240px;
-   width: 240px;
-}
+/* This is the main CSS for the image that i have added on the screen, the .container:hover, allows for the user to hover over the image 
+and it will turn grey*/
 
 img {
     border-style: none;
-    border-radius: 100%;
-    filter: grayscale(0);
-}
+    border-radius: 10% 20%; /* Here is use of border radius on the images */
+ }
+
 .container:hover{
     filter: grayscale(1);
-    border-style: none;
-    border-radius: 100%;
     transition: background-size 0.3s ease;
-    filter: grayscale(1);
-    transition: background-size 0.3s ease; 
 }
 
+/* This code allows for the background to be a specific colour and also aligns all the text to the centre*/
 body {
     background-color: lightcyan;
 }
-
- body {
-     text-align: center;
-/*Code above, is the css code to make the image a circle, and have the text be a specific font*/ 
-/* The code below, is the css code for the different tabs on the page, makes them look how they do, also makes it change colour when you hover over it*/
- 
+/* The code below, is the css code for the different tabs on the page,
+ makes them look how they do, also makes it change colour when you hover over it*/
+body {
+    text-align: center;
     margin: 0;
     padding: 0;
  }
 
-
+/*This is the CSS for the Navigation*/ /*Code from class but modified slightly*/
 nav {
     margin: 50px;
 }
@@ -71,7 +66,7 @@ li a {
     text-transform: uppercase;
     transition: all 0.5s ease;
 }
-/* Causes text to transition from black to blue when you hover, then move away */
+/* Causes text to transition from black to blue when you hover, then move away */ /*My own code */
 li a:hover {
     color: blue;
 }
@@ -81,18 +76,18 @@ li.active a {
     color: #333;
 
 }
-
+/*Class code but modified*/
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     background: black;
     background: rgba(0, 0, 0, 0.25);
-    background-image: linear-gradient(
+    /*background-image: linear-gradient(
         180deg,
-        rgba(89, 196, 27, 0.614),
-        rgba(39, 39, 170, 0.733)
-    );
+        rgba(89, 196, 27, 0.614), /* Allows fot the video to have a green and blue gradient on it 
+        rgba(39, 39, 170, 0.733) */
+    
     color: white;
     margin-bottom: 100px;
     position: relative;
